@@ -43,16 +43,33 @@ img {
     display: flex;
     flex-direction: column;
 
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
 
-    margin: 1rem 0;
+    margin: 0;
     padding: 0;
 }
 
-.data-block {
-    width: 75vw;
+#petersagan {
+    background-image: url("images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    margin: 1rem 12.5vw;
+#personalinfo {
+    background-image: url("images/img3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+
+#teaminfo {
+    background-image: url("images/img2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
 }
 
 .title {
@@ -79,6 +96,10 @@ img {
 
     width: fit-content;
     height: fit-content;
+
+    backdrop-filter: blur(3px);
+
+    padding: .5rem 0;
 
     font-size: 2rem;
 
