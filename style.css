@@ -14,9 +14,11 @@ body {
 }
 
 img {
-    width: 80vw;
+    width: 75vw;
+    height: unset;
 
-    margin: 2rem;
+    margin: 2rem auto;
+
     padding: 0;
 }
 
@@ -34,28 +36,32 @@ img {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #4b4b4b;
 }
 
 .block {
     display: flex;
-    align-items: center;
     flex-direction: column;
 
     width: 100%;
 
-    margin: 0;
+    margin: 1rem 0;
     padding: 0;
+}
+
+.data-block {
+    width: 75vw;
+
+    margin: 1rem 12.5vw;
 }
 
 .title {
     position: sticky;
     top: 0;
 
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
 
-    margin: 2rem 0;
+    margin: 1rem 0;
 
     font-size: 3rem;
     font-style: italic;
@@ -64,8 +70,7 @@ img {
 
     transition: 200ms all ease-in-out;
 
-    border: none black;
-    border-bottom: 2px solid black;
+    border: none;
 }
 
 .heading {
@@ -77,7 +82,7 @@ img {
 
     font-size: 2rem;
 
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 .text-block {
@@ -85,8 +90,6 @@ img {
 
     font-size: 1.2rem;
 
-    text-align: center;
-
-    margin: 0 0 1rem 0;
+    margin: 0;
     padding: 0;
 }
