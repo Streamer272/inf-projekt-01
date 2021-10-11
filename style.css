@@ -3,17 +3,20 @@ html, body {
     padding: 0;
 }
 
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .title {
     position: sticky;
     top: 0;
-    left: 50%;
-
-    transform: translate(-50%);
 
     width: fit-content;
     height: fit-content;
 
-    margin: 2rem auto;
+    margin: 2rem 0;
 
     font-size: 3rem;
     font-style: italic;
@@ -29,7 +32,7 @@ html, body {
 .title-img {
     width: 80vw;
 
-    margin: auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -48,4 +51,6 @@ html, body {
     display: inline-block;
 
     font-size: 1rem;
+
+    text-align: center;
 }
