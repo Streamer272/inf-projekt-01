@@ -1,25 +1,12 @@
 html, body {
+    width: 100vw !important;
+
     margin: 0;
     padding: 0;
 }
 
 html {
     scroll-behavior: smooth;
-}
-
-body {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-img {
-    width: 75vw;
-    height: unset;
-
-    margin: 2rem auto;
-
-    padding: 0;
 }
 
 ::-webkit-scrollbar {
@@ -48,26 +35,24 @@ img {
 
     margin: 0;
     padding: 0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #petersagan {
     background-image: url("images/img1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #personalinfo {
     background-image: url("images/img3.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 
     color: white;
 }
 
 #teaminfo {
     background-image: url("images/img2.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
 
     color: white;
 }
@@ -76,7 +61,7 @@ img {
     position: sticky;
     top: 0;
 
-    width: 100%;
+    width: 100vw;
 
     margin: 1rem 0;
 
