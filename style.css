@@ -3,10 +3,49 @@ html, body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+img {
+    width: 80vw;
+
+    margin: 2rem;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: .6rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: .6rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
 }
 
 .title {
@@ -29,15 +68,9 @@ body {
     border-bottom: 2px solid black;
 }
 
-.title-img {
-    width: 80vw;
-
-    margin: 0;
-    padding: 0;
-}
-
 .heading {
     position: sticky;
+    top: .5rem;
 
     width: fit-content;
     height: fit-content;
@@ -50,7 +83,10 @@ body {
 .text-block {
     display: inline-block;
 
-    font-size: 1rem;
+    font-size: 1.2rem;
 
     text-align: center;
+
+    margin: 0 0 1rem 0;
+    padding: 0;
 }
