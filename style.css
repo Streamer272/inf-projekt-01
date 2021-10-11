@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    position: sticky;
+    top: 0;
+    left: 50%;
+
+    transform: translate(-50%);
+
+    width: fit-content;
+    height: fit-content;
+
+    margin: 2rem auto;
+
+    font-size: 3rem;
+    font-style: italic;
+
+    text-align: center;
+
+    transition: 200ms all ease-in-out;
+
+    border: none black;
+    border-bottom: 2px solid black;
+}
+
+.title-img {
+    width: 80vw;
+
+    margin: auto;
+    padding: 0;
+}
+
+.heading {
+    position: sticky;
+
+    width: fit-content;
+    height: fit-content;
+
+    font-size: 2rem;
+
+    margin: 1rem;
+}
+
+.text-block {
+    display: inline-block;
+
+    font-size: 1rem;
+}
