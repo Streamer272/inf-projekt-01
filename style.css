@@ -91,18 +91,23 @@ html {
 
     z-index: 1;
 
-    width: 10vh;
-    height: 10vh;
-
     background-color: rgba(0, 0, 0, 0);
 }
 
 .router-popup-trigger:hover .router-popup {
-    display: inline-block;
+    transform: translateY(20%);
 }
 
 .router-popup {
-    display: none;
+    transition: 500ms all ease-in-out;
+    transform: translateY(-100%);
+
+    background-color: #b7b7b7;
+
+    margin: 0 .5rem;
+    padding: .5rem;
+
+    border-radius: .5rem 0 .5rem .5rem;
 
     float: right;
 }
