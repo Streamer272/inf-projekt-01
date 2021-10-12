@@ -38,6 +38,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 #petersagan {
@@ -81,4 +82,27 @@ html {
 
     margin: 1rem;
     padding: 0;
+}
+
+.router-popup-trigger {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    z-index: 1;
+
+    width: 10vh;
+    height: 10vh;
+
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.router-popup-trigger:hover .router-popup {
+    display: inline-block;
+}
+
+.router-popup {
+    display: none;
+
+    float: right;
 }
