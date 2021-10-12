@@ -1,12 +1,11 @@
 html, body {
-    width: 100vw !important;
-
     margin: 0;
     padding: 0;
 }
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -73,22 +72,6 @@ html {
     transition: 200ms all ease-in-out;
 
     border: none;
-}
-
-.heading {
-    position: sticky;
-    top: .5rem;
-
-    width: fit-content;
-    height: fit-content;
-
-    backdrop-filter: blur(3px);
-
-    padding: .5rem 0;
-
-    font-size: 2rem;
-
-    margin: 1rem 0;
 }
 
 .text-block {
