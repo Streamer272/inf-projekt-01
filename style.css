@@ -45,13 +45,13 @@ html {
 }
 
 #personalinfo {
-    background-image: url("images/img3.png");
+    background-image: url("images/img2.png");
 
     color: white;
 }
 
 #teaminfo {
-    background-image: url("images/img2.jpeg");
+    background-image: url("images/img3.jpg");
 
     color: white;
 }
@@ -79,6 +79,6 @@ html {
 
     font-size: 1.2rem;
 
-    margin: 0;
+    margin: 1rem;
     padding: 0;
 }
