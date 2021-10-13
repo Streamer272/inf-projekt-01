@@ -1,0 +1,32 @@
+.router-popup-trigger {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: 18rem;
+    height: 5rem;
+
+    z-index: 1;
+
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.router-popup-trigger:hover .router-popup {
+    transform: translateY(0%);
+}
+
+.router-popup {
+    transition: 500ms all ease-in-out;
+    transform: translateY(-150%);
+
+    background-color: #b7b7b7;
+
+    margin: .5rem;
+    padding: .5rem;
+
+    border-radius: .5rem 0 .5rem .5rem;
+
+    float: right;
+
+    font-size: 1.25rem;
+}

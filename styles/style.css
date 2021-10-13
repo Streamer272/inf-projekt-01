@@ -1,0 +1,52 @@
+.title {
+    position: sticky;
+    top: 0;
+
+    width: 100vw;
+
+    margin: 1rem 0;
+
+    font-size: 3rem;
+    font-style: italic;
+
+    text-align: center;
+
+    transition: 200ms all ease-in-out;
+
+    border: none;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.text-block {
+    display: inline-block;
+
+    font-size: 1.2rem;
+
+    margin: 1rem;
+    padding: 0;
+}
+
+.text-image-block {
+
+}
+
+.text-image-block img {
+    float: right;
+
+    width: 50vw;
+}
