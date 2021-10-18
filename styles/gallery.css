@@ -1,0 +1,12 @@
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #659dbd;
+}
+
+.gallery img {
+    width: 80vw;
+}
